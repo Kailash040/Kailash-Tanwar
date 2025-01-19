@@ -6,6 +6,8 @@ import Particle from "../Particle";
 import project1 from "../../Assets/Projects/project1.png";
 import project2 from "../../Assets/Projects/project2.png";
 import project3 from "../../Assets/Projects/project3.png";
+import project4 from "../../Assets/Projects/project4.png";
+import project5 from "../../Assets/Projects/project5.png";
 
 function Projects() {
   return (
@@ -64,6 +66,51 @@ highlights expertise in React.js and creating ecient tools for
 global communication.
 "
               demoLink="https://googletranslator.in/"
+            />
+          </Col>
+          {/*  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project4}
+              isBlog={false}
+              title="superminds"
+              description="Built a high-performance web application using Next.js with a
+mobile-rst, responsive design. Integrated GSAP for smooth
+animations, React Hook Form for ecient form handling, and
+optimized for fast loading times and seamless user experiences
+"
+              demoLink="https://superminds.dev/"
+            />
+          </Col>
+          {/*  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project5}
+              isBlog={false}
+              title="18candleriggs"
+              description="Developed a high-performance web application using Next.js
+with a focus on clean UI/UX design for a visually appealing and
+SKILLS
+Languages - Javascript
+(ES6)
+Frontend Libraries &
+Frameworks - Reactjs,
+Nextjs, Bootstrap, Tailwind
+Css, Redux Toolkit, GSAP
+Tools & Techniques - Git,
+Github, Jira, Slack
+LANGUAGES
+Hindi, English
+EDUCATION
+Pt. J.L.N College, Faridabad
+— Bachelor of Computer
+Application (BCA)
+2019 - 2022
+user-friendly experience. Integrated Swiper for responsive
+sliders and React Hook Form for ecient form management.
+Created a comprehensive admin p.
+"
+              demoLink="https://superminds.dev/"
             />
           </Col>
         </Row>
